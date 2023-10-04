@@ -2,7 +2,7 @@ import bd from '../bases/mibase.js';
 import { DataTypes } from 'sequelize';
 
 
-    const datos = bd.define('aprendiz', {
+    const datos = bd.define('aprendizs', {
         id: {
           type: DataTypes.INTEGER,
           primaryKey: true,
@@ -16,14 +16,7 @@ import { DataTypes } from 'sequelize';
           type: DataTypes.STRING,
           allowNull: false,
         },
-        createdAt: {
-          type: DataTypes.DATE,
-          allowNull: false,
-        },
-        updatedAt: {
-          type: DataTypes.DATE,
-          allowNull: false,
-        },
+        
 
       });
     

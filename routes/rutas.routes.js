@@ -6,9 +6,9 @@ import express  from 'express';
 
 router.get('/',stockdatos);
 router.get('/:id',getApdz);
-router.get('/',createApdz);
-router.get('/:id',UpdateApdz);
-router.get('/:id',DeleteApdz);
+router.post('/',createApdz);
+router.put('/:id',UpdateApdz);
+router.delete('/:id',DeleteApdz);
 
 
 
